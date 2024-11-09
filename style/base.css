@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+body {
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+#wrapper {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 1001px;
+    height: 466px;
+    background: url('../images/home_backdrop.jpg') no-repeat;
+    text-align: left;
+}
+
+/* Work-around for multiple backgrounds */
+#gallery-hack {
+    width: 1001px;
+    height: 466px;
+    background: url('../images/gallery1.jpg') no-repeat;
+}
+
+#logo {
+    position: absolute;
+    top: 55px;
+    right: 140px;
+    background: url('../images/logo.png') no-repeat;
+    width: 366px;
+    height: 152px;
+}
+
+#contact-data {
+    position: absolute;
+    top: 210px;
+    right: 200px;
+    width: 249px;
+    height: 162px;
+    background: url('../images/contact.png') no-repeat;
+}
+
+#ios-tel-link {
+    position: absolute;
+    top: 98px;
+    left: 30px;
+    width: 185px;
+    height: 35px;
+}
+
+#info-links {
+    position: absolute;
+    top: 372px;
+    right: 218px;
+    width: 210px;
+    height: 37px;
+    background: url('../images/info_links_bg.png') no-repeat;
+}
+
+#prijslijst-link {
+    display: block;
+    position: absolute;
+    top: 12px;
+    left: 6px;
+    width: 70px;
+    height: 19px;
+    background: url('../images/prijslijst-link.png') no-repeat;
+    outline-color: white;
+}
+
+#prijslijst-link:hover {
+    background-image: url('../images/prijslijst-link_over.png');
+}
+
+#openingstijden-link {
+    display: block;
+    position: absolute;
+    top: 12px;
+    left: 99px;
+    width: 110px;
+    height: 19px;
+    background: url('../images/openingstijden-link.png') no-repeat;
+    outline-color: white;
+}
+
+#openingstijden-link:hover {
+    background-image: url('../images/openingstijden-link_over.png');
+}
+
+.gallery-image {
+    display: none;
+    position: absolute;
+}
+
+#gallery0 {
+    display: block;
+}
+
+#prijslijst {
+    visibility: hidden;
+    position: absolute;
+    z-index: 2;
+    top: 100px;
+    left: 400px;
+    width: 50px;
+    height: 71px;
+    opacity: 0;
+}
+
+#openingstijden {
+    visibility: hidden;
+    position: absolute;
+    z-index: 2;
+    top: 100px;
+    left: 400px;
+    width: 53px; /*532px × 388px */
+    height: 39px;
+    opacity: 0;
+}
